@@ -2,6 +2,10 @@
 
 Criteria for this project is to create a website from scratch with work that I've done. I will be using HTML to structure the website and use CSS to style it. More specifically style it dynamically with using responsive design, grid layout, box styling and flexbox for positioning. The website should have working links (jump to parts of the website when the links are clicked on) and layout of the website should also change when the browser dimensions get smaller.
 
+# Wireframe:
+
+![portfolioWireframe](./images/portfolioWireframe.png)
+
 The conditions are as follows:
 
 WHEN I load their portfolio
