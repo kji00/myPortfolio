@@ -127,11 +127,16 @@ nav ul li a {
 }
 
 .works {
-    display: grid;
-    width: 100%;
-    grid-template-rows: auto;
-    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
     text-align: center;
+}
+
+.box {
+    height: ;
+    padding: 15px;
 }
 
 /* Footer section */
