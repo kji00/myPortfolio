@@ -16,22 +16,43 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#aboutMe">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <hero></hero>
+    <section class="hero"></section>
 
     <content>
-        <section></section>
-        <section></section>
+        <section id="aboutMe" class="bio">
+            <h2>About Me</h2>
+            <p>Portfolio of all the projects I've completed during this class</p>
+        </section>
+        <section id="projects" class="grid">
+            <h2>Projects</h2>
+            <div class="works">
+                <a href="https://kji00.github.io/refactor-html-css/" target="_blank">
+                    <section class="box"></section>
+                </a>
+                <a href="https://kji00.github.io/cssCheatsheet/" target="_blank">
+                    <section class="box"></section>
+                </a>
+            </div>
+        </section>
     </content>
 
     <footer>
-        <section></section>
+        <section id="contact" class="personal">
+            <h2>Contact</h2>
+            <section class="personalContact">
+                <ul>
+                    <li><a href="email@email.com">Email</a></li>
+                    <li><a href="https://github.com/">Github</a></li>
+                </ul>
+            </section>
+        </section>
     </footer>
 
 </body>

@@ -1,8 +1,33 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:500);
 
+:root {
+    --bg-color: rgb(3, 138, 162);
+}
+
 /* Body */
 body {
+    background-color: beige;
     font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p {
+  color: #fff;
+}
+
+h2 {
+    font-size: 150%;
+    text-decoration: underline;
+}
+
+content {
+    margin: 0 10px 0 10px; 
 }
 
 /* Navigation Bar */
@@ -10,7 +35,10 @@ body {
 header {
     position: relative;
     display: flex;
-    background: rgb(1, 93, 109);
+    background: var(--bg-color);
+    border-bottom: solid;
+    border-bottom-width: 15px;
+    border-bottom-color: rgb(11, 41, 163);
     width: 100%;
     height: auto;
     justify-content: space-between;
@@ -39,5 +67,104 @@ nav ul li {
 }
 
 nav ul li a {
+    color: #fff;
+}
+
+/* Hero banner */
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;;
+    background-image: url("../../images/gradient.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* About Me section */
+
+.bio {
+    position: relative;
+    height: 200px;
+    margin: 0 10px 25px 10px; 
+    border-radius: 25px;
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+.bio h2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.bio p {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+/* Projects section */
+
+.grid {
+    position: relative;
+    height: 300px;
+    margin: 0 10px 25px 10px;
+    border-radius: 25px;
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid h2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.works {
+    display: grid;
+    width: 100%;
+    grid-template-rows: auto;
+    padding: 2%;
+    text-align: center;
+}
+
+/* Footer section */
+
+.personal {
+    position: relative;
+    max-height: 100px;
+    border-radius: 25px;
+    margin: 0 10px 10px 10px;
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+.personal h2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.personalContact {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.personalContact ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.personalContact ul li a {
     color: #fff;
 }
