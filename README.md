@@ -4,7 +4,10 @@ Criteria for this project is to create a website from scratch with work that I'v
 
 # Wireframe:
 
-![portfolioWireframe](./images/portfolioWireframe.png)
+![Website at greater than 720px](./images/greaterThan720px.png)
+
+
+![Website at less than 720](./images/lessThan720px.png)
 
 The conditions are as follows:
 
